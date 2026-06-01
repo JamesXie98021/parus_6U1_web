@@ -878,12 +878,12 @@ async function main() {
 
     const timeStartInput = document.getElementById("timeStart");
     const timeEndInput = document.getElementById("timeEnd");
+    const applyTimeBtn = document.getElementById("applyTimeBtn");
     const resetTimeBtn = document.getElementById("resetTimeBtn");
-    if (timeStartInput) timeStartInput.addEventListener("change", refreshAll);
-    if (timeEndInput)   timeEndInput.addEventListener("change", refreshAll);
-    if (resetTimeBtn)   resetTimeBtn.addEventListener("click", () => {
-        timeStartInput.value = "";
-        timeEndInput.value = "";
+    if (applyTimeBtn) applyTimeBtn.addEventListener("click", refreshAll);
+    if (resetTimeBtn) resetTimeBtn.addEventListener("click", () => {
+        if (timeStartInput) timeStartInput.value = "";
+        if (timeEndInput)   timeEndInput.value = "";
         refreshAll();
     });
 

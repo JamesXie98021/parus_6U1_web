@@ -147,10 +147,26 @@ input:focus {
 .reset-btn-wrap {
     display: flex;
     align-items: flex-end;
+    gap: 6px;
+}
+
+.btn-apply {
+    border: 1px solid var(--accent);
+    border-radius: 10px;
+    padding: 8px 20px;
+    background: var(--accent);
+    color: #0a1418;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: background 0.15s;
+}
+
+.btn-apply:hover {
+    background: #2fd9b0;
 }
 
 .btn-reset {
-    width: 100%;
     border: 1px solid var(--line);
     border-radius: 10px;
     padding: 8px 16px;
