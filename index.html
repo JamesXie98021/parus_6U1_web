@@ -32,6 +32,19 @@
           <input id="searchInput" type="text" placeholder="搜尋欄位值...">
         </div>
       </div>
+      <div class="toolbar time-toolbar">
+        <div>
+          <label for="timeStart">Start Time（台灣）</label>
+          <input id="timeStart" type="datetime-local">
+        </div>
+        <div>
+          <label for="timeEnd">End Time（台灣）</label>
+          <input id="timeEnd" type="datetime-local">
+        </div>
+        <div class="reset-btn-wrap">
+          <button id="resetTimeBtn" class="btn-reset">清除</button>
+        </div>
+      </div>
       <div class="submeta" id="chartMeta"></div>
       <div class="chart-wrap">
         <canvas id="lineChart"></canvas>

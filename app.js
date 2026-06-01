@@ -178,6 +178,24 @@ function median(values) {
     return quantile(s, 0.5);
 }
 
+function getUITimeRange() {
+    const startEl = document.getElementById('timeStart');
+    const endEl = document.getElementById('timeEnd');
+
+    function taiwanInputToUTC(value) {
+        if (!value) return null;
+        const [datePart, timePart] = value.split('T');
+        const [year, month, day] = datePart.split('-').map(Number);
+        const [hour, minute] = (timePart || '00:00').split(':').map(Number);
+        return new Date(Date.UTC(year, month - 1, day, hour - 8, minute));
+    }
+
+    return {
+        timeStart: startEl ? taiwanInputToUTC(startEl.value) : null,
+        timeEnd:   endEl   ? taiwanInputToUTC(endEl.value)   : null,
+    };
+}
+
 function getLocalConfig() {
     return window.LOCAL_DASHBOARD_CONFIG || {};
 }
@@ -799,6 +817,12 @@ async function main() {
         if (!currentPayload) return;
         const metric = metricSelect.value;
         const range = resolveDisplayRange(localConfig, currentCategoryMeta, metric);
+
+        // UI 時間範圍覆蓋（全域，切換分類不重設）
+        const uiRange = getUITimeRange();
+        if (uiRange.timeStart !== null) range.timeStart = uiRange.timeStart;
+        if (uiRange.timeEnd !== null) range.timeEnd = uiRange.timeEnd;
+
         const valueRules = resolveValueFilterRules(localConfig, currentCategoryMeta);
         const baseRows = currentPayload.previewRows || [];
         const filteredByConfigRows = applyConfiguredValueFilters(baseRows, valueRules, metric);
@@ -851,6 +875,17 @@ async function main() {
     categorySelect.addEventListener("change", refreshCategory);
     searchInput.addEventListener("input", refreshAll);
     metricSelect.addEventListener("change", refreshAll);
+
+    const timeStartInput = document.getElementById("timeStart");
+    const timeEndInput = document.getElementById("timeEnd");
+    const resetTimeBtn = document.getElementById("resetTimeBtn");
+    if (timeStartInput) timeStartInput.addEventListener("change", refreshAll);
+    if (timeEndInput)   timeEndInput.addEventListener("change", refreshAll);
+    if (resetTimeBtn)   resetTimeBtn.addEventListener("click", () => {
+        timeStartInput.value = "";
+        timeEndInput.value = "";
+        refreshAll();
+    });
 
     await refreshCategory();
 }
