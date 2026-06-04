@@ -1,16 +1,16 @@
 {
-  "generatedAtUtc": "2026-06-04 12:36:32 (台灣時間)",
+  "generatedAtUtc": "2026-06-04 12:51:46 (台灣時間)",
   "csvDir": "/home/lab602/NAS/new_csv",
   "categories": [
     {
       "key": "EPS_Beacon",
       "label": "EPS Beacon",
       "file": "EPS_Beacon.json",
-      "sourceCsv": "EPS_Beacon_20260604_1151.csv",
-      "rows": 810,
+      "sourceCsv": "EPS_Beacon_20260604_1251.csv",
+      "rows": 812,
       "columns": 30,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-06-04 03:41:18"
+      "endTime": "2026-06-04 04:36:00"
     },
     {
       "key": "ADCS_1_Beacon",
@@ -26,11 +26,11 @@
       "key": "ADCS_2_Beacon",
       "label": "ADCS 2 Beacon",
       "file": "ADCS_2_Beacon.json",
-      "sourceCsv": "ADCS_2_Beacon_20260604_1020.csv",
-      "rows": 472,
+      "sourceCsv": "ADCS_2_Beacon_20260604_1251.csv",
+      "rows": 473,
       "columns": 40,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-06-04 02:08:10"
+      "endTime": "2026-06-04 04:36:00"
     },
     {
       "key": "ADCS_3_HIL_Beacon",
@@ -46,11 +46,11 @@
       "key": "OBC_RST_Beacon",
       "label": "OBC RST Beacon",
       "file": "OBC_RST_Beacon.json",
-      "sourceCsv": "OBC_RST_Beacon_20260604_1020.csv",
-      "rows": 260,
+      "sourceCsv": "OBC_RST_Beacon_20260604_1251.csv",
+      "rows": 261,
       "columns": 24,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-06-04 02:03:49"
+      "endTime": "2026-06-04 04:36:00"
     }
   ]
 }
