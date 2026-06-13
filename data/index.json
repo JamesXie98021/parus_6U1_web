@@ -1,5 +1,5 @@
 {
-  "generatedAtUtc": "2026-06-13 18:51:54 (台灣時間)",
+  "generatedAtUtc": "2026-06-13 19:07:13 (台灣時間)",
   "csvDir": "/home/lab602/NAS/new_csv",
   "categories": [
     {
@@ -46,11 +46,11 @@
       "key": "OBC_RST_Beacon",
       "label": "OBC RST Beacon",
       "file": "OBC_RST_Beacon.json",
-      "sourceCsv": "OBC_RST_Beacon_20260613_1736.csv",
-      "rows": 349,
+      "sourceCsv": "OBC_RST_Beacon_20260613_1907.csv",
+      "rows": 350,
       "columns": 24,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-06-13 09:18:06"
+      "endTime": "2026-06-13 10:53:02"
     }
   ]
 }
