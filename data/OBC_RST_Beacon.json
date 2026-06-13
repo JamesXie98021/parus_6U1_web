@@ -1,5 +1,5 @@
 {
-  "rows": 351,
+  "rows": 352,
   "columns": [
     "來源ID",
     "網站時間(UTC)",
@@ -28,8 +28,34 @@
   ],
   "timeColumn": "網站時間(UTC)",
   "startTime": "2026-05-02 13:19:50",
-  "endTime": "2026-06-13 12:09:37",
+  "endTime": "2026-06-13 13:17:38",
   "previewRows": [
+    {
+      "來源ID": 14290121,
+      "網站時間(UTC)": "2026-06-13 13:17:38",
+      "RST_WWD": 0,
+      "RST_IWD": 2,
+      "RST_LPR": 0,
+      "RST_POR": 142,
+      "RST_RstPin": 193,
+      "RST_BOR": 142,
+      "RST_HardFault": 0,
+      "RST_MemFault": 0,
+      "RST_BusFault": 1,
+      "RST_UsageFault": 4,
+      "LOW_VOLTAGE_SHUTDOWN_ADCS": "14.600 V",
+      "LOW_VOLTAGE_OPEN_ADCS": "15.600 V",
+      "LOW_VOLTAGE_ENTER_SAFE_MODE_MV": "14.900 V",
+      "LOW_VOLTAGE_EXIT_SAFE_MODE_MV": "14.800 V",
+      "LOW_VOLTAGE_TARGET_TRACKING": "15.100 V",
+      "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS": "1.000000 °/s",
+      "LOW_VOLTAGE_SHUTDOWN_ADCS (V)": 14.6,
+      "LOW_VOLTAGE_OPEN_ADCS (V)": 15.6,
+      "LOW_VOLTAGE_ENTER_SAFE_MODE_MV (V)": 14.9,
+      "LOW_VOLTAGE_EXIT_SAFE_MODE_MV (V)": 14.8,
+      "LOW_VOLTAGE_TARGET_TRACKING (V)": 15.1,
+      "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS (°/s)": 1.0
+    },
     {
       "來源ID": 14296740,
       "網站時間(UTC)": "2026-06-13 12:09:37",
@@ -9159,5 +9185,5 @@
   ],
   "key": "OBC_RST_Beacon",
   "label": "OBC RST Beacon",
-  "sourceCsv": "OBC_RST_Beacon_20260613_2022.csv"
+  "sourceCsv": "OBC_RST_Beacon_20260613_2138.csv"
 }
