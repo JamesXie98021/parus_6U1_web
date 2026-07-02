@@ -461,8 +461,16 @@ function removeUnitlessDuplicates(cols) {
     });
 }
 
+function resolveTimeColumn(payload) {
+    const cols = payload.columns || [];
+    if (cols.includes("封包時間(UTC)")) return "封包時間(UTC)";
+    if (payload.timeColumn) return payload.timeColumn;
+    if (cols.includes("網站時間(UTC)")) return "網站時間(UTC)";
+    return null;
+}
+
 function buildSeries(payload, metricCol, sourceRows) {
-    const tcol = payload.timeColumn;
+    const tcol = resolveTimeColumn(payload);
     if (!tcol) return [];
 
     const rows = sourceRows || payload.previewRows || [];
@@ -544,7 +552,7 @@ function filterSpikes(series, cfg) {
 
 function filterRowsForTable(rows, payload, keyword, metricCol, range) {
     const cols = payload.columns || [];
-    const tcol = payload.timeColumn;
+    const tcol = resolveTimeColumn(payload);
 
     return rows.filter((r) => {
         if (keyword && !toFlatText(r, cols).includes(keyword.toLowerCase())) {
