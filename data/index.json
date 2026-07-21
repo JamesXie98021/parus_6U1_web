@@ -1,23 +1,23 @@
 {
-  "generatedAtUtc": "2026-07-20 08:57:46 (台灣時間)",
+  "generatedAtUtc": "2026-07-21 08:52:54 (台灣時間)",
   "csvDir": "/home/lab602/NAS/new_csv",
   "categories": [
     {
       "key": "EPS_Beacon",
       "label": "EPS Beacon",
       "file": "EPS_Beacon.json",
-      "sourceCsv": "EPS_Beacon_20260720_0541.csv",
-      "rows": 1715,
+      "sourceCsv": "EPS_Beacon_20260721_0536.csv",
+      "rows": 1737,
       "columns": 30,
       "startTime": "2020-01-01 00:00:29",
-      "endTime": "2026-07-19 21:40:09"
+      "endTime": "2026-07-20 21:22:37"
     },
     {
       "key": "ADCS_1_Beacon",
       "label": "ADCS 1 Beacon",
       "file": "ADCS_1_Beacon.json",
-      "sourceCsv": "ADCS_1_Beacon_20260720_0541.csv",
-      "rows": 1026,
+      "sourceCsv": "ADCS_1_Beacon_20260721_0536.csv",
+      "rows": 1033,
       "columns": 48,
       "startTime": "2020-01-01 00:00:31",
       "endTime": "2026-07-17 13:36:31"
@@ -26,31 +26,31 @@
       "key": "ADCS_2_Beacon",
       "label": "ADCS 2 Beacon",
       "file": "ADCS_2_Beacon.json",
-      "sourceCsv": "ADCS_2_Beacon_20260720_0541.csv",
-      "rows": 974,
+      "sourceCsv": "ADCS_2_Beacon_20260721_0536.csv",
+      "rows": 981,
       "columns": 40,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-07-19 21:33:00"
+      "endTime": "2026-07-20 21:15:24"
     },
     {
       "key": "ADCS_3_HIL_Beacon",
       "label": "ADCS 3 HIL Beacon",
       "file": "ADCS_3_HIL_Beacon.json",
-      "sourceCsv": "ADCS_3_HIL_Beacon_20260719_2152.csv",
-      "rows": 1014,
+      "sourceCsv": "ADCS_3_HIL_Beacon_20260721_0536.csv",
+      "rows": 1023,
       "columns": 24,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-07-19 13:34:19"
+      "endTime": "2026-07-20 21:15:24"
     },
     {
       "key": "OBC_RST_Beacon",
       "label": "OBC RST Beacon",
       "file": "OBC_RST_Beacon.json",
-      "sourceCsv": "OBC_RST_Beacon_20260720_0541.csv",
-      "rows": 544,
+      "sourceCsv": "OBC_RST_Beacon_20260721_0536.csv",
+      "rows": 551,
       "columns": 24,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-07-19 21:33:00"
+      "endTime": "2026-07-20 21:15:24"
     }
   ]
 }
