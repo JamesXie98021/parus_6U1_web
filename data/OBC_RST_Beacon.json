@@ -1,5 +1,5 @@
 {
-  "rows": 597,
+  "rows": 600,
   "columns": [
     "來源ID",
     "網站時間(UTC)",
@@ -28,8 +28,86 @@
   ],
   "timeColumn": "網站時間(UTC)",
   "startTime": "2026-05-02 13:19:50",
-  "endTime": "2026-07-26 11:51:30",
+  "endTime": "2026-07-27 21:28:32",
   "previewRows": [
+    {
+      "來源ID": 14629131,
+      "網站時間(UTC)": "2026-07-27 21:28:32",
+      "RST_WWD": 0,
+      "RST_IWD": 3,
+      "RST_LPR": 0,
+      "RST_POR": 161,
+      "RST_RstPin": 217,
+      "RST_BOR": 161,
+      "RST_HardFault": 0,
+      "RST_MemFault": 0,
+      "RST_BusFault": 1,
+      "RST_UsageFault": 4,
+      "LOW_VOLTAGE_SHUTDOWN_ADCS": "15.000 V",
+      "LOW_VOLTAGE_OPEN_ADCS": "16.200 V",
+      "LOW_VOLTAGE_ENTER_SAFE_MODE_MV": "15.100 V",
+      "LOW_VOLTAGE_EXIT_SAFE_MODE_MV": "15.200 V",
+      "LOW_VOLTAGE_TARGET_TRACKING": "15.100 V",
+      "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS": "0.002000 °/s",
+      "LOW_VOLTAGE_SHUTDOWN_ADCS (V)": 15.0,
+      "LOW_VOLTAGE_OPEN_ADCS (V)": 16.2,
+      "LOW_VOLTAGE_ENTER_SAFE_MODE_MV (V)": 15.1,
+      "LOW_VOLTAGE_EXIT_SAFE_MODE_MV (V)": 15.2,
+      "LOW_VOLTAGE_TARGET_TRACKING (V)": 15.1,
+      "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS (°/s)": 0.002
+    },
+    {
+      "來源ID": 14629126,
+      "網站時間(UTC)": "2026-07-27 13:01:03",
+      "RST_WWD": 0,
+      "RST_IWD": 3,
+      "RST_LPR": 0,
+      "RST_POR": 161,
+      "RST_RstPin": 217,
+      "RST_BOR": 161,
+      "RST_HardFault": 0,
+      "RST_MemFault": 0,
+      "RST_BusFault": 1,
+      "RST_UsageFault": 4,
+      "LOW_VOLTAGE_SHUTDOWN_ADCS": "15.000 V",
+      "LOW_VOLTAGE_OPEN_ADCS": "16.200 V",
+      "LOW_VOLTAGE_ENTER_SAFE_MODE_MV": "15.100 V",
+      "LOW_VOLTAGE_EXIT_SAFE_MODE_MV": "15.200 V",
+      "LOW_VOLTAGE_TARGET_TRACKING": "15.100 V",
+      "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS": "0.002000 °/s",
+      "LOW_VOLTAGE_SHUTDOWN_ADCS (V)": 15.0,
+      "LOW_VOLTAGE_OPEN_ADCS (V)": 16.2,
+      "LOW_VOLTAGE_ENTER_SAFE_MODE_MV (V)": 15.1,
+      "LOW_VOLTAGE_EXIT_SAFE_MODE_MV (V)": 15.2,
+      "LOW_VOLTAGE_TARGET_TRACKING (V)": 15.1,
+      "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS (°/s)": 0.002
+    },
+    {
+      "來源ID": 14622647,
+      "網站時間(UTC)": "2026-07-27 10:18:31",
+      "RST_WWD": 0,
+      "RST_IWD": 3,
+      "RST_LPR": 0,
+      "RST_POR": 161,
+      "RST_RstPin": 217,
+      "RST_BOR": 161,
+      "RST_HardFault": 0,
+      "RST_MemFault": 0,
+      "RST_BusFault": 1,
+      "RST_UsageFault": 4,
+      "LOW_VOLTAGE_SHUTDOWN_ADCS": "15.000 V",
+      "LOW_VOLTAGE_OPEN_ADCS": "16.200 V",
+      "LOW_VOLTAGE_ENTER_SAFE_MODE_MV": "15.100 V",
+      "LOW_VOLTAGE_EXIT_SAFE_MODE_MV": "15.200 V",
+      "LOW_VOLTAGE_TARGET_TRACKING": "15.100 V",
+      "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS": "0.002000 °/s",
+      "LOW_VOLTAGE_SHUTDOWN_ADCS (V)": 15.0,
+      "LOW_VOLTAGE_OPEN_ADCS (V)": 16.2,
+      "LOW_VOLTAGE_ENTER_SAFE_MODE_MV (V)": 15.1,
+      "LOW_VOLTAGE_EXIT_SAFE_MODE_MV (V)": 15.2,
+      "LOW_VOLTAGE_TARGET_TRACKING (V)": 15.1,
+      "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS (°/s)": 0.002
+    },
     {
       "來源ID": 14621424,
       "網站時間(UTC)": "2026-07-26 11:51:30",
@@ -2111,7 +2189,7 @@
       "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS (°/s)": 0.002
     },
     {
-      "來源ID": 14540398,
+      "來源ID": 14540407,
       "網站時間(UTC)": "2026-07-17 03:24:01",
       "RST_WWD": 0,
       "RST_IWD": 3,
@@ -2137,7 +2215,7 @@
       "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS (°/s)": 0.002
     },
     {
-      "來源ID": 14540407,
+      "來源ID": 14540398,
       "網站時間(UTC)": "2026-07-17 03:24:01",
       "RST_WWD": 0,
       "RST_IWD": 3,
@@ -3983,7 +4061,7 @@
       "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS (°/s)": 1.0
     },
     {
-      "來源ID": 14415665,
+      "來源ID": 14415659,
       "網站時間(UTC)": "2026-07-01 02:54:19",
       "RST_WWD": 0,
       "RST_IWD": 3,
@@ -4009,7 +4087,7 @@
       "DETUMBLE_ANGULAR_RATE_THRESHOLD_DPS (°/s)": 1.0
     },
     {
-      "來源ID": 14415659,
+      "來源ID": 14415665,
       "網站時間(UTC)": "2026-07-01 02:54:19",
       "RST_WWD": 0,
       "RST_IWD": 3,
@@ -15555,5 +15633,5 @@
   ],
   "key": "OBC_RST_Beacon",
   "label": "OBC RST Beacon",
-  "sourceCsv": "OBC_RST_Beacon_20260726_2000.csv"
+  "sourceCsv": "OBC_RST_Beacon_20260728_0551.csv"
 }
