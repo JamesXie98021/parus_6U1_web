@@ -1,56 +1,56 @@
 {
-  "generatedAtUtc": "2026-09-10 08:57:23 (台灣時間)",
+  "generatedAtUtc": "2026-09-11 08:59:30 (台灣時間)",
   "csvDir": "/home/lab602/NAS/new_csv",
   "categories": [
     {
       "key": "EPS_Beacon",
       "label": "EPS Beacon",
       "file": "EPS_Beacon.json",
-      "sourceCsv": "EPS_Beacon_20260909_2205.csv",
-      "rows": 2520,
+      "sourceCsv": "EPS_Beacon_20260910_1905.csv",
+      "rows": 2531,
       "columns": 30,
       "startTime": "2020-01-01 00:00:29",
-      "endTime": "2026-09-09 13:51:09"
+      "endTime": "2026-09-10 10:48:48"
     },
     {
       "key": "ADCS_1_Beacon",
       "label": "ADCS 1 Beacon",
       "file": "ADCS_1_Beacon.json",
-      "sourceCsv": "ADCS_1_Beacon_20260909_2205.csv",
-      "rows": 1380,
+      "sourceCsv": "ADCS_1_Beacon_20260910_1905.csv",
+      "rows": 1385,
       "columns": 48,
       "startTime": "2020-01-01 00:00:31",
-      "endTime": "2026-09-09 13:53:15"
+      "endTime": "2026-09-10 00:44:33"
     },
     {
       "key": "ADCS_2_Beacon",
       "label": "ADCS 2 Beacon",
       "file": "ADCS_2_Beacon.json",
-      "sourceCsv": "ADCS_2_Beacon_20260909_1343.csv",
-      "rows": 1308,
+      "sourceCsv": "ADCS_2_Beacon_20260910_1905.csv",
+      "rows": 1313,
       "columns": 40,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-09-09 05:31:13"
+      "endTime": "2026-09-10 10:43:41"
     },
     {
       "key": "ADCS_3_HIL_Beacon",
       "label": "ADCS 3 HIL Beacon",
       "file": "ADCS_3_HIL_Beacon.json",
-      "sourceCsv": "ADCS_3_HIL_Beacon_20260909_2205.csv",
-      "rows": 1359,
+      "sourceCsv": "ADCS_3_HIL_Beacon_20260910_1905.csv",
+      "rows": 1364,
       "columns": 24,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-09-09 13:49:09"
+      "endTime": "2026-09-10 10:43:41"
     },
     {
       "key": "OBC_RST_Beacon",
       "label": "OBC RST Beacon",
       "file": "OBC_RST_Beacon.json",
-      "sourceCsv": "OBC_RST_Beacon_20260909_2205.csv",
-      "rows": 806,
+      "sourceCsv": "OBC_RST_Beacon_20260910_1905.csv",
+      "rows": 811,
       "columns": 24,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-09-09 13:43:44"
+      "endTime": "2026-09-10 10:43:41"
     }
   ]
 }
