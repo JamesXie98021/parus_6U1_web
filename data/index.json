@@ -1,13 +1,13 @@
 {
-  "generatedAtUtc": "2026-10-24 08:45:35 (台灣時間)",
+  "generatedAtUtc": "2026-10-25 08:58:57 (台灣時間)",
   "csvDir": "/home/lab602/NAS/new_csv",
   "categories": [
     {
       "key": "EPS_Beacon",
       "label": "EPS Beacon",
       "file": "EPS_Beacon.json",
-      "sourceCsv": "EPS_Beacon_20261023_2237.csv",
-      "rows": 2804,
+      "sourceCsv": "EPS_Beacon_20261024_2207.csv",
+      "rows": 2807,
       "columns": 30,
       "startTime": "2020-01-01 00:00:29",
       "endTime": "2026-10-20 07:36:12"
@@ -16,8 +16,8 @@
       "key": "ADCS_1_Beacon",
       "label": "ADCS 1 Beacon",
       "file": "ADCS_1_Beacon.json",
-      "sourceCsv": "ADCS_1_Beacon_20261023_2237.csv",
-      "rows": 1507,
+      "sourceCsv": "ADCS_1_Beacon_20261024_2207.csv",
+      "rows": 1509,
       "columns": 48,
       "startTime": "2020-01-01 00:00:31",
       "endTime": "2026-10-20 07:36:17"
@@ -26,31 +26,31 @@
       "key": "ADCS_2_Beacon",
       "label": "ADCS 2 Beacon",
       "file": "ADCS_2_Beacon.json",
-      "sourceCsv": "ADCS_2_Beacon_20261023_2237.csv",
-      "rows": 1442,
+      "sourceCsv": "ADCS_2_Beacon_20261024_2207.csv",
+      "rows": 1445,
       "columns": 40,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-10-23 14:17:16"
+      "endTime": "2026-10-24 14:01:03"
     },
     {
       "key": "ADCS_3_HIL_Beacon",
       "label": "ADCS 3 HIL Beacon",
       "file": "ADCS_3_HIL_Beacon.json",
-      "sourceCsv": "ADCS_3_HIL_Beacon_20261023_2237.csv",
-      "rows": 1479,
+      "sourceCsv": "ADCS_3_HIL_Beacon_20261024_2207.csv",
+      "rows": 1481,
       "columns": 24,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-10-23 14:17:16"
+      "endTime": "2026-10-24 14:01:03"
     },
     {
       "key": "OBC_RST_Beacon",
       "label": "OBC RST Beacon",
       "file": "OBC_RST_Beacon.json",
-      "sourceCsv": "OBC_RST_Beacon_20261023_2237.csv",
-      "rows": 918,
+      "sourceCsv": "OBC_RST_Beacon_20261024_2207.csv",
+      "rows": 921,
       "columns": 24,
       "startTime": "2026-05-02 13:19:50",
-      "endTime": "2026-10-23 14:17:16"
+      "endTime": "2026-10-24 14:01:03"
     }
   ]
 }
